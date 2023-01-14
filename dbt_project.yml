@@ -37,3 +37,5 @@ models:
     staging:
       +enabled: true
       +materialized: view
+seeds:
+  +quote_columns: true
